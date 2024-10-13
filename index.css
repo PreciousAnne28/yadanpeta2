@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+body
+{
+    min-height: 100vh;
+    background-color: #CA8787;
+}
+
+header
+{
+    position: absolute;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    display:flex;
+    justify-content: center;
+
+}
+header ul
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a .active
+{
+    background: #fff;
+    color: #62132e;
+}
+
+.maingreet{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(26,26,26,1),rgba(26,26,26,0)), url(images/bg.png);
+    background-position: center;
+    background-size:cover;
+  }
+  
+  .text{
+    color: #fff;
+    top: calc(50% - 8%);
+    left: calc(48% - 26%);
+    right: calc(45% - 26%);
+    position: absolute;
+    text-align: center;
+    background: transparent; 
+  }
+  .text h1{
+    font-size: 50px;
+  }
+
+.div1
+{
+    background-image: linear-gradient(rgba(202, 135, 135,1),rgba(202, 135, 135,0)), url(images/Bg2.png);
+    background-size: cover;
+    min-height: 130vh;
+    width: 100%;
+}
+.text2{
+    top:110vh;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    background: transparent; 
+    left: calc(47% - 26%);
+    right: calc(48% - 26%);
+    font-size: 40px;
+}
+  .biography{
+    height: 790px;
+    width: 90%;
+    background-color: rgba(255, 234, 242, 0.9);
+    position: absolute;
+    top: 120vh;  
+    left: calc(50% - 45%);
+    box-shadow: white 0px 5px 10px;
+    border-radius: 25px;
+    bottom: 20vh;
+    }
+
+    .biography1{
+        height: 130px;
+        width: 88%;
+        top: 122vh; 
+        left: calc(51.5% - 45.5%);
+        position: absolute;
+        background-color: #e1acac;
+        border-radius: 25px; 
+    }
+
+    .bun{
+        width:30%;
+        height: 30%;
+        top: calc(110.5% - 10%);
+        left: calc(52% - 46%);   
+        Position:absolute; 
+    }
+    .me{
+        height:100%;
+        position: absolute;
+        top:0%;
+        left: calc(50% - 40%);  
+    }
+    .bio1text{
+            color: #fff;
+            top: calc(134.5% - 10%);
+            left: calc(55% - 26%);
+            right: calc(35% - 26%);
+            position: absolute;
+            text-align: right;
+            background: transparent;
+            font-size:13px; 
+    }
+    .biography2{
+        height: 580px;
+        width: 13%;
+        top: calc(149.5% - 10%); 
+        left: calc(51.5% - 45.5%);
+        position: absolute;
+        background-color: #e1acac;
+        border-radius: 25px; 
+    }
+    .biography3{
+        height: 580px;
+        width: 13%;
+        top: calc(149.5% - 10%); 
+        left: calc(64.8% - 45.5%);
+        position: absolute;
+        background-color: #e1acac;
+        border-radius: 25px; 
+    }
+    .biography4{
+        height: 580px;
+        width: 13%;
+        top: calc(149.5% - 10%); 
+        left: calc(78.1% - 45.5%);
+        position: absolute;
+        background-color: #e1acac;
+        border-radius: 25px; 
+    }
+    .biography5{
+        height: 580px;
+        width: 13%;
+        top: calc(149.5% - 10%); 
+        left: calc(91.3% - 45.5%);
+        position: absolute;
+        background-color: #e1acac;
+        border-radius: 25px; 
+    }
+    .biography6{
+        height: 580px;
+        width: 13%;
+        top: calc(149.5% - 10%); 
+        left: calc(104.44% - 45.5%);
+        position: absolute;
+        background-color: #e1acac;
+        border-radius: 25px; 
+    }
+    .biography7{
+        height: 580px;
+        width: 21.5%;
+        top: calc(149.5% - 10%); 
+        left: calc(117.7% - 45.5%);
+        position: absolute;
+        background-color: #e1acac;
+        border-radius: 25px; 
+    }
+    .bio2text h1{
+        color: #fff;
+        position:relative;
+        text-align: center;
+        background: transparent;
+        margin-top: 20px;
+        font-size:30px; 
+    }
+
+    .bio2text p{
+        color: #fff;
+        position:relative;
+        text-align: justify;
+        background: transparent;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-right: 10px;
+        font-size:15px; 
+    }
+    .bio3text h1{
+        color: #fff;
+        position:relative;
+        text-align: center;
+        background: transparent;
+        margin-top: 20px;
+        font-size:30px; 
+    }
+    .bio4text h1{
+        color: #fff;
+        position:relative;
+        text-align: center;
+        background: transparent;
+        margin-top: 20px;
+        font-size:20px; 
+    }
+
+    .bio6text h1{
+        color: #fff;
+        position:relative;
+        text-align: center;
+        background: transparent;
+        margin-top: 20px;
+        font-size:30px; 
+    }
+    .bio7text h1{
+        color: #fff;
+        position:relative;
+        text-align: center;
+        background: transparent;
+        margin-top: 20px;
+        font-size:30px; 
+    }
+
+    .bio8text h1{
+        color: #fff;
+        position:relative;
+        text-align: center;
+        background: transparent;
+        margin-top: 20px;
+        font-size:30px; 
+    }
+    .bio3text p{
+        color: #fff;
+        position:relative;
+        text-align: justify;
+        background: transparent;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-right: 10px;
+        font-size:15px; 
+    }
+    .bio4text p{
+        color: #fff;
+        position:relative;
+        text-align: justify;
+        background: transparent;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-right: 10px;
+        font-size:15px; 
+    }
+
+    .bio6text p{
+        color: #fff;
+        position:relative;
+        text-align: justify;
+        background: transparent;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size:15px; 
+    }
+    .bio7text p{
+        color: #fff;
+        position:relative;
+        text-align: justify;
+        background: transparent;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size:15px; 
+    }
+    .bio8text p{
+        color: #fff;
+        position:relative;
+        text-align: justify;
+        background: transparent;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size:15px; 
+    }
+    .exp{
+         background-image: linear-gradient(rgba(202, 135, 135,1),rgba(202, 135, 135,0)), url(images/Bg2.png);
+         background-size: cover;
+         min-height: 100vh;
+         width: 100%;
+            
+    }
+    .text3{
+        top:250vh;
+        color: #fff;
+        position: absolute;
+        text-align: center;
+        background: transparent; 
+        left: calc(47% - 26%);
+        right: calc(48% - 26%);
+        font-size: 40px;
+    }
+    .boxy{
+        height: 320px;
+        width: 90%;
+        background-color: rgba(255, 234, 242, 0.9);
+        position: absolute;
+        top: 260vh;  
+        left: calc(50% - 45%);
+        box-shadow: rgb(228, 202, 202) 0px 5px 10px;
+        border-radius: 25px;
+        bottom: 20vh;
+        }
+        .sad{
+            height: 280px;
+            width: 48%;
+            top: calc(15.5% - 10%); 
+            left: calc(47% - 45.5%);
+            position: absolute;
+            background-color: #f3b9b9;
+            border-radius: 25px; 
+        }
+        .sadtext h1{
+            color: #fff;
+            position:relative;
+            text-align: center;
+            background: transparent;
+            margin-top: 20px;
+            font-size:40px; 
+        }
+        .sadtext p{
+            color: #fff;
+            position:relative;
+            text-align: justify;
+            background: transparent;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size:20px; 
+        }
+        .happi{
+            height: 280px;
+            width: 48%;
+            top: calc(15.5% - 10%); 
+            left: calc(96% - 45.5%);
+            position: absolute;
+            background-color: #f3b9b9;
+            border-radius: 25px; 
+        }
+        .happitext h1{
+            color: #fff;
+            position:relative;
+            text-align: center;
+            background: transparent;
+            margin-top: 20px;
+            font-size:40px; 
+        }
+        .happitext p{
+            color: #fff;
+            position:relative;
+            text-align: justify;
+            background: transparent;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size:20px; 
+        }
+        .nyom{
+            width:30%;
+            height: 30%;
+            top: calc(245.5% - 10%);
+            left: calc(110% - 46%);   
+            Position:absolute; 
+        }
+
+        .footer{
+            height: 60px;
+            width: 100%;
+            background-color:  rgb(193, 104, 132);
+            bottom: -100%;
+            box-shadow: white 0px -5px 20px;
+            }
+            
+            .footer-p{
+            color: #fff;
+            font-size: 20px;
+            margin-top: 15px;
+            margin-right: 20px;
+            float: right;
+            }
+            
+            .footer-email{
+            width: 30px;
+            float: left;
+            margin-left: 30px;
+            margin-top: 15px;
+            }
+            
+            .footer-email-p{
+                color: #fff;
+            font-size: 20px;
+            float: left;
+            margin-left: 10px;
+            margin-top: 15px;
+            }
+            
+            .footer-location{
+            width: 30px;
+            float: left;
+            margin-left: 30px;
+            margin-top: 15px;
+            }
+            
+            .footer-location-p{
+                color: #fff;
+            font-size: 20px;
+            float: left;
+            margin-left: 10px;
+            margin-top: 15px;
+            }
+            
+            .footer-phone{
+            width: 30px;
+            float: left;
+            margin-left: 30px;
+            margin-top: 15px;
+            }
+            
+            .footer-phone-p{
+                color: #fff;
+            font-size: 20px;
+            float: left;
+            margin-left: 10px;
+            margin-top: 15px;
+            }
+            .yuki{
+                width: 160px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 25px;
+                margin-top: 20px;
+                height:190px; 
+            }
+            
